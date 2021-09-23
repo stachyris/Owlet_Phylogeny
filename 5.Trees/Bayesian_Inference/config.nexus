@@ -1,0 +1,7 @@
+#NEXUS
+
+begin run;
+   numruns 4
+   numgen 2000000
+   numCoupledChains 2
+end;

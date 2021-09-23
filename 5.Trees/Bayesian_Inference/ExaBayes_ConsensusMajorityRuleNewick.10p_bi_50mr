@@ -1,0 +1,153 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=51;
+	taxlabels
+	aegolius_funereus_28868[&!name="Aegolius funereus"]
+	apavit[&!name="Apaloderma vittatum"]
+	asio_flammeus_21727[&!name="Asio flammeus"]
+	asio_otus_15937_fixed[&!name="Asio otus"]
+	athblt[&!name="Athene blewitti",!color=#ff0000]
+	athbra[&!name="Athene brama",!color=#ff0000]
+	athene_cunicularia_31327[&!name="Athene cunicularia"]
+	athene_noctua_21790[&!name="Athene noctua"]
+	bubo_cinerascens_15360[&!name="Bubo cinerascens"]
+	bubo_nipalensis_189733[&!name="Bubo nipalensis"]
+	bubo_scandiacus_27634[&!name="Bubo scandiacus"]
+	ciccaba_virgata_4964[&!name="Ciccaba virgata"]
+	falper[&!name="Falco peregrinus"]
+	glarad[&!name="Glaucidium radiatum",!color=#ff0000]
+	glaucidium_brodiei_10781[&!name="Taenioptynx brodiei"]
+	glaucidium_capense_104493[&!name="Glaucidium capense"]
+	glaucidium_gnoma_29507[&!name="Glaucidium gnoma"]
+	glaucidium_tephronotum_12422[&!name="Glaucidium tephronotum"]
+	halleu[&!name="Haliaeetus leucocephalus"]
+	jubula_lettii_270520_merged[&!name="Jubula lettii"]
+	ketupa_ketupu_9666[&!name="Ketupa ketupu"]
+	lophostrix_cristata_40834[&!name="Lophostrix cristata"]
+	margarobyas_lawrencii_142308_merged[&!name="Margarobyas lawrencii"]
+	megascops_albogularis_29421[&!name="Megascops albogularis"]
+	megascops_asio_29844[&!name="Megascops asio"]
+	megascops_nudipes_11317[&!name="Megascops nudipes"]
+	micrathene_whitneyi_38772[&!name="Micrathene whitneyi"]
+	nesasio_solomonensis_6621[&!name="Asio solomonensis"]
+	ninox_boobook_10706[&!name="Ninox boobook"]
+	ninox_jacquinoti_MLK94[&!name="Athene jacquinoti"]
+	ninox_superciliaris_384685[&!name="Athene superciliaris"]
+	otus_elegans_10975[&!name="Otus elegans"]
+	otus_gurneyi_19248[&!name="Otus gurneyi"]
+	otus_rufescens_17816_fixed[&!name="Otus rufescens"]
+	phodilus_badius_10244[&!name="Phodilus badius"]
+	pseudoscops_clamator_93240[&!name="Asio clamator"]
+	pseudoscops_grammicus_2203[&!name="Asio grammicus"]
+	psiloscops_flammeolus_20019[&!name="Psiloscops flammeolus"]
+	ptilopsis_granti_115604[&!name="Ptilopsis granti"]
+	pulsatrix_melanota_18423[&!name="Pulsatrix melanota"]
+	pyrroglaux_podarginus_23683[&!name="Otus podarginus"]
+	sceloglaux_albifaces_230260[&!name="Ninox albifacies"]
+	scotopelia_peli_262870[&!name="Scotopelia peli"]
+	strix_aluco_6764[&!name="Strix aluco"]
+	strix_rufipes_11745[&!name="Strix rufipes"]
+	strix_varia_22621[&!name="Strix varia"]
+	strix_woodfordii_29079[&!name="Strix woodfordii"]
+	surnia_ulula_9490[&!name="Surnia ulula"]
+	tytalb[&!name="Tyto alba"]
+	uroglaux_dimorpha_31387_merged[&!name="Uroglaux dimorpha"]
+	xenoglaux_loweryi_44364[&!name="Xenoglaux loweryi"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (aegolius_funereus_28868:0.006014,((surnia_ulula_9490:0.004539,((glaucidium_gnoma_29507:0.004292,glaucidium_tephronotum_12422:0.003306)[&boot=1.0]:0.001342,(glaucidium_capense_104493:0.00311,glarad:0.003131)[&boot=1.0]:6.02E-4)[&boot=1.0]:3.93E-4)[&boot=1.0]:0.001105,(athblt:0.002847,((ninox_superciliaris_384685:0.002577,athene_cunicularia_31327:0.003127)[&boot=1.0]:9.7E-4,(athene_noctua_21790:0.002407,(athbra:0.001599,ninox_jacquinoti_MLK94:0.001995)[&boot=1.0]:6.26E-4)[&boot=1.0]:7.72E-4)[&boot=1.0]:2.5E-4)[&boot=1.0]:0.002004)[&boot=1.0]:3.66E-4,((glaucidium_brodiei_10781:0.005863,(xenoglaux_loweryi_44364:0.004645,micrathene_whitneyi_38772:0.004184)[&boot=1.0]:6.62E-4)[&boot=1.0]:0.001609,(margarobyas_lawrencii_142308_merged:0.015306,((uroglaux_dimorpha_31387_merged:0.01217,(sceloglaux_albifaces_230260:0.010609,ninox_boobook_10706:8.15E-4)[&boot=1.0]:0.001827)[&boot=1.0]:0.003325,(((tytalb:0.007942,phodilus_badius_10244:0.006346)[&boot=1.0]:0.009121,(apavit:0.032452,(falper:0.022632,halleu:0.013235)[&boot=1.0]:5.56E-4)[&boot=1.0]:0.002651)[&boot=1.0]:0.007835,((otus_elegans_10975:0.002818,(otus_gurneyi_19248:0.00261,(pyrroglaux_podarginus_23683:0.002965,otus_rufescens_17816_fixed:0.002354)[&boot=1.0]:1.42E-4)[&boot=1.0]:1.25E-4)[&boot=1.0]:0.001664,((ptilopsis_granti_115604:0.001527,((nesasio_solomonensis_6621:9.11E-4,asio_flammeus_21727:6.07E-4)[&boot=1.0]:7.27E-4,(pseudoscops_clamator_93240:0.001054,(asio_otus_15937_fixed:5.18E-4,pseudoscops_grammicus_2203:0.004633)[&boot=1.0]:1.77E-4)[&boot=1.0]:5.33E-4)[&boot=1.0]:2.58E-4)[&boot=1.0]:0.001872,((jubula_lettii_270520_merged:0.015387,((bubo_cinerascens_15360:0.001204,bubo_scandiacus_27634:0.001463)[&boot=1.0]:8.41E-4,(scotopelia_peli_262870:0.00382,(ketupa_ketupu_9666:0.001609,bubo_nipalensis_189733:0.002062)[&boot=0.99]:9.1E-5)[&boot=0.99]:2.14E-4)[&boot=0.97]:3.8E-4)[&boot=0.84]:5.31E-4,(((megascops_albogularis_29421[&!rotate=false]:0.001698,megascops_asio_29844[&!rotate=false]:0.001269)[&boot=1.0,!rotate=false]:7.21E-4,(psiloscops_flammeolus_20019[&!rotate=true]:0.001722,megascops_nudipes_11317[&!rotate=true]:0.001568)[&boot=1.0,!rotate=true]:8.67E-4)[&boot=1.0,!rotate=true]:9.69E-4,((lophostrix_cristata_40834:0.002165,pulsatrix_melanota_18423:0.002023)[&boot=1.0]:6.32E-4,((strix_woodfordii_29079:0.001043,strix_aluco_6764:0.001103)[&boot=1.0]:4.89E-4,(strix_varia_22621:8.15E-4,(ciccaba_virgata_4964:7.7E-4,strix_rufipes_11745:0.001028)[&boot=1.0]:1.88E-4)[&boot=1.0]:5.04E-4)[&boot=1.0]:9.8E-4)[&boot=1.0]:1.39E-4)[&boot=1.0]:2.07E-4)[&boot=0.84]:7.5E-5)[&boot=1.0]:2.76E-4)[&boot=1.0]:0.001548)[&boot=1.0]:7.52E-4)[&boot=0.85]:1.34E-4)[&boot=1.0]:8.91E-4)[&boot=1.0]:0.001096);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=1000;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="boot";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="boot";
+	set nodeLabels.fontName="SansSerif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=583;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=2.0;
+	set scaleBar.scaleRange=0.005;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="SansSerif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
