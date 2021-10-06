@@ -3,5 +3,4 @@ Scripts used for the UCE based phylogeny of Indian Owlets. All three species-For
 
 
 
-
-![Graphical_Abstract_2](https://user-images.githubusercontent.com/61734552/134547784-0c424bb6-2f09-4f33-a02f-84d2733a70e9.jpg)
+![Graphical_Abstract_2](https://user-images.githubusercontent.com/61734552/136191609-47028ce9-6f8d-463c-b265-92964bde0cc7.jpg)
