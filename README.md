@@ -15,7 +15,7 @@ HIGHLIGHTS
     
 
 
-Pre-print version is available on bioRxive (https://doi.org/10.1101/2021.10.09.463762) and data used for this study can be found on Open Science Framework (OSF) (https://osf.io/ed9s2/).  
+Pre-print version is available on bioRxiv (https://doi.org/10.1101/2021.10.09.463762) and data used for this study can be found on Open Science Framework (OSF) (https://osf.io/ed9s2/).  
 
 
 ![Graphical_Abstract_2](https://user-images.githubusercontent.com/61734552/136191609-47028ce9-6f8d-463c-b265-92964bde0cc7.jpg)
