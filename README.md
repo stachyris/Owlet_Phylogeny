@@ -1,4 +1,4 @@
-# [Accepted for Publication in IBIS]Re-assessing the phylogenetic status and evolutionary relationship of Forest Owlet [Athene blewitti (Hume 1873)] using genomic data
+# [Publication in IBIS]Re-assessing the phylogenetic status and evolutionary relationship of Forest Owlet [Athene blewitti (Hume 1873)] using genomic data
 
 ABSTRACT
 
@@ -19,5 +19,7 @@ Pre-print version is available on bioRxiv (https://doi.org/10.1101/2021.10.09.46
 
 
 ![Graphical_Abstract_2](https://user-images.githubusercontent.com/61734552/136191609-47028ce9-6f8d-463c-b265-92964bde0cc7.jpg)
+
+How to cite :  K. L., V., Natesh, M., Mehta, P., Jayapal, R., Mukherjee, S. and Robin, V.V. (2022), Re-assessing the phylogenetic status and evolutionary relationship of Forest Owlet (Athene blewitti (Hume 1873)) using genomic data. Ibis. https://doi.org/10.1111/ibi.13097
 
 
